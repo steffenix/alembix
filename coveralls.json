@@ -1,0 +1,8 @@
+{
+  "skip_files": [
+    "test"
+  ],
+  "coverage_options": {
+    "xml_base_dir": "backend/shared/alembix"
+  }
+}

@@ -4,8 +4,8 @@ defmodule Alembix.MixProject do
   def project do
     [
       app: :alembix,
-      version: "0.1.1",
-      elixir: "~> 1.9",
+      version: "0.1.2",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       test_coverage: [tool: ExCoveralls],
       deps: deps(),
@@ -44,7 +44,7 @@ defmodule Alembix.MixProject do
     """
       Supercharge your environment variable.
       On deployment Alembix can be used to ensure your enviroment variable are not missing.
-      It can be useed to parse the enviroment variables.
+      It can be used to parse the enviroment variables.
     """
   end
 
@@ -55,7 +55,7 @@ defmodule Alembix.MixProject do
       # These are the default files included in the package
       files: ~w(lib .formatter.exs mix.exs README*),
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/nash-io/alembix"}
+      links: %{"GitHub" => "https://github.com/steffenix/alembix"}
     ]
   end
 end
